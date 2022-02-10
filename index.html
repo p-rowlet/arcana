@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>메이플스토리 :: 아르카나</title>
+		<link
+			rel="icon"
+			href="img/fabicon.ico"
+			type="image/x-icon"
+			sizes="36x36"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+
+		<link
+			href="https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div class="waterfall"></div>
+			<div class="pond"></div>
+			<div class="foot"></div>
+			<section id="main">
+				<a class="maple_logo" href="#main">메이플스토리</a>
+
+				<div class="login">
+					<ul>
+						<li>
+							<a
+								href="#"
+								onclick="window.open('https://member.nexon.com/join/join.aspx?accesscode=136', '넥슨 회원가입', 'toolbar=no, scrollbars=yes, width=1024, height=800'); return false;"
+								>회원가입</a
+							>
+						</li>
+						<li>
+							<a
+								href="#"
+								onclick="window.open('https://maplestory.nexon.com/Authentication/Login', '메이플스토리 로그인', 'toolbar=no, scrollbars=yes, width=1024, height=800'); return false;"
+								>로그인</a
+							>
+						</li>
+						<li>
+							<a
+								href="#"
+								onclick="window.open('https://cs.nexon.com/HelpBoard/Nexon?gamecode=18', '메이플스토리 고객센터', 'toolbar=no, scrollbars=yes, width=1024, height=800'); return false;"
+								>고객센터</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<nav class="gnb">
+					<ul>
+						<li><a class="active" href="#main">메인</a></li>
+						<li><a href="#intro">소개</a></li>
+						<li><a href="#event">이벤트</a></li>
+						<li><a href="#gallery">갤러리</a></li>
+
+						<li></li>
+					</ul>
+				</nav>
+
+				<div class="tree1"></div>
+
+				<div class="main_logo center">
+					<div class="logo center">arcane river :: 아르카나</div>
+					<div class="video">아르카나 영상</div>
+					<iframe
+						class="video_frame center"
+						width="450"
+						height="253"
+						src="https://www.youtube.com/embed/5LXXERBR70E"
+						frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+					<a
+						class="game_start center"
+						href="https://maplestory.nexon.com"
+					>
+						게임 시작
+					</a>
+				</div>
+
+				<div class="coming center">
+					<div class="coming_bubble"></div>
+					<div class="mouse">클릭</div>
+				</div>
+
+				<div class="notice center">
+					공지이담!
+					<div class="bubble1"></div>
+					<div class="flyingfish"></div>
+					<div class="mouse">클릭</div>
+				</div>
+
+				<div class="scroll_down">scroll down</div>
+
+				<div class="modal1">
+					<div class="close1">닫기</div>
+					<div class="inner">
+						<div class="tab_name">공지사항</div>
+						<div class="notice_content">
+							<ul class="notice_list">
+								<li>
+									<span class="notice_category">공지 ></span>
+									<span class="notice_name"
+										>8/8(목) 모바일 넥슨 홈페이지 개편
+										안내</span
+									>
+									<span class="notice_date">2019.08.08</span>
+								</li>
+								<li>
+									<span class="notice_category">공지 ></span>
+									<span class="notice_name"
+										>8/8(목) 넥슨 정기점검 안내
+									</span>
+									<span class="notice_date">2019.08.07</span>
+								</li>
+								<li>
+									<span class="notice_category inspect"
+										>점검 ></span
+									>
+									<span class="notice_name"
+										>[패치완료] 8/8(목) ver.1.2.321
+										클라이언트 (4:00~10:00)</span
+									>
+									<span class="notice_date">2019.08.07</span>
+								</li>
+								<li>
+									<span class="notice_category">공지 ></span>
+									<span class="notice_name"
+										>보안켐페인 : 봔봔한 보안이벤트 당첨자
+										안내</span
+									>
+									<span class="notice_date">2019.08.05</span>
+								</li>
+								<li>
+									<span class="notice_category">공지 ></span>
+									<span class="notice_name"
+										>8/7(수) 실시간 계좌이체 결제 한도 변경
+										안내</span
+									>
+									<span class="notice_date">2019.08.03</span>
+								</li>
+								<li>
+									<span class="notice_category">공지 ></span>
+									<span class="notice_name"
+										>(수정완료) 이벤트 아케인셰이드 무기의
+										마력 수치 오류 수정 안내</span
+									>
+									<span class="notice_date">2019.08.02</span>
+								</li>
+							</ul>
+							<ul class="notice_page">
+								<li class="pre_page">&lt;&lt;</li>
+								<li class="pre_page">&lt;</li>
+								<li>1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+								<li>5</li>
+								<li>6</li>
+								<li>7</li>
+								<li>8</li>
+								<li>9</li>
+								<li>10</li>
+								<li class="pre_page">&gt;</li>
+								<li class="pre_page">&gt;&gt;</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="coming_modal">
+					<div class="close3"></div>
+					<div class="coming_con">
+						<div class="coming_content"></div>
+					</div>
+				</div>
+			</section>
+
+			<section id="intro">
+				<!--           장식 애니메이션-->
+				<div class="deco center">
+					<div class="wind"></div>
+					<div class="harmony center"></div>
+					<div class="tree"></div>
+					<div class="tree_rock center"></div>
+				</div>
+
+				<div class="game_intro center">
+					게임소개
+					<div class="bubble2"></div>
+					<div class="tree_spirit"></div>
+					<div class="mouse">클릭</div>
+				</div>
+
+				<div class="guide center">
+					가이드담!
+					<div class="bubble3"></div>
+					<div class="mini_spirit"></div>
+					<div class="mouse">클릭</div>
+				</div>
+
+				<div class="modal2">
+					<div class="close1">닫기</div>
+					<div class="inner">
+						<div class="tab_name">게임소개</div>
+						<div class="tab_hori1">
+							<ul class="intro_tab">
+								<li class="active" rel="intro_tab1">
+									메이플스토리는?
+								</li>
+								<li rel="intro_tab2">메이플 월드</li>
+								<li rel="intro_tab3">아르카나 업데이트</li>
+							</ul>
+							<div class="tab_hori_content1">
+								<div class="intro_tab1 intro_content">
+									<div class="prev_indicator"></div>
+									<div class="intro_carousel1">
+										<ul class="intro_content1">
+											<li>
+												<img
+													src="img/intro_img1.png"
+													alt=""
+												/>
+												<br />
+												&nbsp;메이플스토리는 세계 최초의
+												2D 횡스크롤 온라인 MMORPG로,
+												2003년 4월 29일에 서비스를
+												시작하여 2019년 현재 16주년을
+												맞이하였습니다. <br />
+												&nbsp;전 세계에서 사랑받고 있는
+												메이플스토리 속 멋진 세계를
+												경험해보세요!
+											</li>
+											<li>
+												<img
+													src="img/intro_img2.png"
+													alt=""
+												/><br />&nbsp;메이플스토리에서는
+												상상 속에서만 그려왔던 멋진
+												세계를 여행할 수 있습니다.
+												<br />
+												다채로운 필드에서 사냥을 하고,
+												새로운 대륙으로 여행을 하고
+												비밀을 밝혀낼 수도 있습니다.
+												<br />
+												&nbsp;마을에서는 휴식과 함께
+												다른 여행자들과 많은 이야기를 할
+												수 있습니다.
+											</li>
+
+											<li>
+												<img
+													src="img/intro_img3.png"
+													alt=""
+												/><br />
+												&nbsp;끊임 없는 즐거움, 스스로
+												만들어 나가는 이야기, 상상 속의
+												세계. <br />
+												&nbsp;이 모든 것을 경험할 준비가
+												되었다면, 빅토리아 아일랜드로
+												향하는 배에 오르면 됩니다.
+											</li>
+										</ul>
+									</div>
+									<div class="next_indicator"></div>
+								</div>
+								<div class="intro_tab2 intro_content">
+									<div class="prev_indicator"></div>
+									<div class="intro_carousel2">
+										<ul class="intro_content2">
+											<li>
+												<img
+													src="img/intro_img4.png"
+													alt=""
+												/><br />
+												&nbsp;메이플 월드는 메이플의
+												이야기가 시작되는 곳으로, 여러
+												시대와 문화가 합쳐진 세계입니다.
+												<br />
+											</li>
+											<li>
+												<img
+													src="img/intro_img5.png"
+													alt=""
+												/><br />
+												&nbsp;모험이 시작되는 빅토리아
+												아일랜드부터, 여제의 마을 에레브
+												섬, 바닷 속 마을 아쿠아리움,
+												요정들의 마을이 있는 오르비스와
+												눈덮인 마을 엘나스, 장난감 마을
+												루디브리엄 등등.. <br />
+												&nbsp;메이플스토리에서는 다양한
+												세계에서 모험을 즐기며 많은
+												이야기를 접할 수 있습니다.
+											</li>
+										</ul>
+									</div>
+									<div class="next_indicator"></div>
+								</div>
+								<div class="intro_tab3 intro_content">
+									<div class="prev_indicator"></div>
+									<div class="intro_carousel3">
+										<ul class="intro_content3">
+											<li>
+												<img
+													src="img/intro_img6.png"
+													width="480px"
+													alt=""
+												/><br />
+												&nbsp;소멸의 여로, 츄츄
+												아일랜드, 꿈의 도시 레헬른에
+												이은 '아케인 리버의 4번째 지역'.
+												아르카나 지역이 업데이트
+												되었습니다. <br />
+											</li>
+											<li>
+												<img
+													src="img/intro_img7.png"
+													class="intro_ilust"
+													alt=""
+												/>
+												<br />
+												&nbsp;꿈의 도시 레헬른을 지나
+												여행하던 도중 , 거대한
+												소용돌이에 휘말려 추락하게 된,
+												음산하고 신비로운 느낌이 드는
+												숲. 아르카나. <br />
+												소용돌이를 없애고 앞으로
+												나아가기 위해, 조그만 정령과
+												함께 위기에 빠진 아르카나를
+												되살려주세요.
+											</li>
+										</ul>
+									</div>
+
+									<div class="next_indicator"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal3">
+					<div class="close1">닫기</div>
+					<div class="inner">
+						<div class="tab_name">가이드</div>
+						<div class="tab1">
+							<ul class="guide_tab">
+								<li class="active" rel="guide_tab1">
+									회원가입/로그인
+								</li>
+								<li rel="guide_tab2">게임 시작하기</li>
+								<li rel="guide_tab3">캐릭터 생성/삭제</li>
+								<li rel="guide_tab4">게임 조작법</li>
+								<li rel="guide_tab5">메이플 길라잡이</li>
+							</ul>
+						</div>
+						<div class="tab_content">
+							<div class="guide_tab1 guide_content">
+								<h1>회원가입/로그인</h1>
+								<h2>1. 회원가입</h2>
+								<p>
+									아직 메이플스토리 회원이 아니신가요? <br />
+									회원가입을 통해 메이플스토리 계정을 생성하고
+									게임을 즐겨보세요!
+								</p>
+								<img
+									src="img/register1.jpg"
+									width="459px"
+									alt=""
+								/>
+								<p>
+									Tip! 메이플스토리를 이용할 수 있는 ID는 모두
+									5종류입니다.<br />
+									로그인 전 용사님의 ID 종류를 확인해주세요.
+								</p>
+								<img
+									src="img/register2.jpg"
+									width="459px"
+									alt=""
+								/>
+
+								<h2>2. 넥슨 가입 확인</h2>
+								<p>
+									메이플스토리는 넥슨 ID를 필요로 하며, 인증을
+									통해 넥슨에 가입되어 있는지를 확인합니다.<br />넥슨에
+									이미 가입되어 있다면 본인의 넥슨 ID를
+									확인하실 수 있으며, 아직 가입하지 않았다면
+									넥슨 회원가입 페이지로 자동 이동됩니다.
+								</p>
+								<img
+									src="img/register3.jpg"
+									width="459px"
+									alt=""
+								/>
+
+								<h2>3. 약관 동의</h2>
+								<p>
+									이용약관에는 중요한 내용이 많으니 꼭 읽어
+									보시고 동의해주세요.
+								</p>
+								<img
+									src="img/register4.jpg"
+									width="459px"
+									alt=""
+								/>
+
+								<h2>4. 메이플스토리 계정만들기</h2>
+								<p>
+									넥슨에 가입되어 있다면 몇 가지
+									정보입력만으로 메이플스토리 계정을 만드실 수
+									있습니다. <br />
+									메이플스토리 계정은 이메일을 사용하며,
+									로그인을 할 때 사용하므로 반드시 기억해
+									주세요. <br />
+									넥슨 ID와 비밀번호에 대한 정보는 넥슨에서
+									확인하실 수 있습니다.
+								</p>
+								<img
+									src="img/register5.jpg"
+									width="459px"
+									alt=""
+								/>
+								<h2>5. 메이플스토리 가입 완료</h2>
+								<p>
+									메이플스토리 가입을 환영합니다. 이제 신나게
+									게임을 즐겨보세요. <br />
+									가입하신 분이 14세미만이라면 가입 후
+									보호자동의서를 꼭 보내주시기 바랍니다.
+									<br />
+								</p>
+							</div>
+
+							<div class="guide_tab2 guide_content">
+								<h1>게임 실행하기</h1>
+								<p>1. 로그인을 해주세요.</p>
+								<img src="img/install1.png" alt="" />
+								<p>2. Game Start 버튼을 눌러주세요.</p>
+								<img src="img/install2.png" alt="" />
+								<p>
+									3. 게임 설치 창을 통해 다운로드 및 설치가
+									진행됩니다.
+								</p>
+								<img
+									src="img/install3.jpg"
+									alt=""
+									width="459px"
+								/>
+								<p>
+									4. 게임 설치를 완료하면 바탕화면에 바로가기
+									아이콘이 생기며 자동으로 게임이 실행됩니다.
+								</p>
+							</div>
+
+							<div class="guide_tab3 guide_content">
+								<h1>캐릭터 생성/삭제하기</h1>
+								<p>
+									캐릭터 생성 버튼을 클릭하여 캐릭터를 생성할
+									수 있습니다. <br />
+									<br />
+									한 월드당 기본 8개의 캐릭터를 만들 수
+									있으며, 캐릭터 슬롯 늘리기 쿠폰 이용 시 최대
+									45개의 캐릭터를 만들 수 있습니다.
+								</p>
+								<img
+									src="img/character1.png"
+									width="459px"
+									alt=""
+								/>
+								<h2>1. 캐릭터 직업 및 계열 선택</h2>
+								<p>
+									총 8개의 직업으로 나뉘며, 마음에 드는 직업을
+									선택해 플레이할 수 있습니다. <br />
+									단, 생성이 제한된 캐릭터는 생성이
+									불가능합니다.
+								</p>
+								<img
+									src="img/character2.png"
+									width="459px"
+									alt=""
+								/>
+								<h2>2. 캐릭터 설정하기</h2>
+								<p>
+									캐릭터 이름 설정 시 같은 캐릭터명을 가진
+									캐릭터가 있거나 금칙어가 포함될 경우
+									이름으로 설정이 불가능합니다. <br />
+									이름을 정했다면 원하는 캐릭터 성별 선택 후
+									얼굴, 헤어 색상 등 세부 설정을 할 수
+									있습니다.
+								</p>
+								<img
+									src="img/character3.png"
+									width="459px"
+									alt=""
+								/>
+								<h2>3. 캐릭터 삭제하기</h2>
+								<p>
+									캐릭터 삭제 버튼을 클릭하여 캐릭터를 삭제할
+									수 있으며, 캐릭터 보호를 위해 캐릭터 삭제
+									대기 기능이 적용됩니다.
+								</p>
+								<h3>
+									1) 삭제할 캐릭터 선택 후 캐릭터 삭제 버튼
+									클릭하기
+								</h3>
+								<p>
+									캐릭터 선택창에서 삭제할 캐릭터 선택 후 화면
+									아래 '캐릭터 삭제' 버튼을 클릭합니다.
+								</p>
+								<img src="img/character4.png" alt="" />
+								<h3>2)2차 비밀번호와 U-OTP 입력하기</h3>
+								<p>
+									① 2차 비밀번호와 U-OTP(가입한 경우)를
+									입력합니다. <br />
+									② 안전한 게임 이용을 위해 무작위 문자 입력
+									창이 작동하오니 정확한 문구를 입력합니다.
+								</p>
+								<img
+									src="img/character5.png"
+									width="459px"
+									alt=""
+								/>
+								<img src="img/character6.png" alt="" />
+								<h3>3) 삭제 대기</h3>
+								<p>
+									선택한 캐릭터가 삭제 대기 상태가 되며, 삭제
+									대기 상태에서 삭제 가능 시점까지 24시간이
+									소요됩니다. <br />
+									삭제 대기 상태에서는 되살리기 버튼을 눌러
+									언제라도 취소할 수 있습니다. <br /><br />
+
+									*메이플ID 당 하루 기준 (오전 0시 ~ 오후 11시
+									59분) 최대 5개의 캐릭터를 삭제 대기 설정할
+									수 있습니다.
+								</p>
+								<img
+									src="img/character7.png"
+									width="459px"
+									alt=""
+								/>
+
+								<h3>4)캐릭터 삭제</h3>
+								<p>
+									① 삭제 대기 상태에서 24시간이 지난 후부터
+									캐릭터를 삭제할 수 있습니다. <br />
+									해당 캐릭터를 선택하고 캐릭터 삭제 버튼을
+									눌러야 삭제가 완료됩니다. <br />
+									② 안전한 게임 이용을 위해 무작위 문자 입력
+									창이 작동하오니 정확한 문구를 입력합니다.
+									<br />
+									*삭제 완료한 캐릭터는 복구할 수 없으니 꼭!
+									신중하게 결정해주세요.
+								</p>
+								<img src="img/character8.png" alt="" />
+								<p>
+									*삭제 대기 상태인 캐릭터라도 해킹 복구
+									서비스는 이용할 수 있습니다. <br />
+									*삭제 대기 상태인 캐릭터는 게임에 접속할
+									수는 없지만, 캐릭터가 완전히 삭제되기 전까지
+									아래 정보는 유지됩니다. <br />
+
+									- 링크 스킬 효과 <br />
+									- 게임 내 받은 택배 및 캐시 선물 <br />
+									- 소지한 기간제 아이템 기간 정보 (삭제 대기
+									상태에서도 기간제 시간 차감)
+								</p>
+							</div>
+
+							<div class="guide_tab4 guide_content">
+								<h1>게임 조작법</h1>
+								<h2>1. 인터페이스</h2>
+								<img
+									src="img/control1.gif"
+									width="459px"
+									alt=""
+								/>
+								<h3>① 미니맵</h3>
+								<p>
+									미니 맵에서는 현재 캐릭터가 있는 지역명을
+									알려줍니다. <br />
+									미니 맵에서는 이외에도 캐릭터 주변의 NPC,
+									퀘스트, 다른 캐릭터, 통로 등을 확인할 수
+									있습니다.
+								</p>
+								<h3>② 메이플 길라잡이, 빠른 이동</h3>
+								<p>
+									게임 컨텐츠를 보다 편리하게 이용할 수 있는
+									기능입니다. <br />
+									마을에서 빠른 이동의 경우 선택 후 원하는
+									컨텐츠를 이용할 수 있으며 메이플
+									길라잡이에서는 캐릭터의 레벨에 해당하는 추천
+									퀘스트, 사냥터, 컨텐츠 정보를 손쉽게 확인할
+									수 있습니다.
+								</p>
+								<img
+									src="img/control2.png"
+									width="459px"
+									alt=""
+								/>
+								<h3>③ 이벤트 알림이</h3>
+								<p>
+									수행 가능한 이벤트를 화면 좌측에서 이벤트 별
+									아이콘으로 확인할 수 있습니다. <br />
+									각 아이콘에 마우스를 가져가면 이벤트 정보를
+									확인할 수 있습니다.
+								</p>
+								<img src="img/control3.png" alt="" />
+								<h3>④ 채팅창</h3>
+								<p>
+									채팅 시스템은 일반 대화, 그룹대화, 파티 및
+									길드 대화 등 다양한 용도로 사용할 수
+									있습니다.
+								</p>
+								<img src="img/control4.png" alt="" />
+								<h3>⑤ 캐릭터 상태 창</h3>
+								<p>
+									캐릭터 상태 창에서는 기본적으로 캐릭터의
+									레벨, 캐릭터명과 HP, MP, 경험치 정보를
+									알려줍니다.
+								</p>
+								<img src="img/control5.png" alt="" />
+								<h3>⑥ 퀘스트 알림이</h3>
+								<p>
+									퀘스트 알림이는 화면 우측에 5개까지
+									등록되며, 자신이 원하는 위치로 이동이
+									가능합니다. <br />
+									필요한 정보만을 이용할 수 있도록 관리할 수
+									있으며 퀘스트를 완료하면 자동으로 사라지게
+									됩니다.
+								</p>
+								<img src="img/control6.png" alt="" />
+
+								<h2>2. 조작법</h2>
+								<h3>1. 기본 조작키</h3>
+								<img
+									src="img/control7.png"
+									width="459px"
+									alt=""
+								/>
+								<h3>2. NPC와 대화하기</h3>
+								<p>
+									화면 안의 NPC에 마우스를 가져간 뒤 클릭을
+									통해 대화할 수 있습니다. <br />
+									NPC와 대화 시 새로운 팝업창을 통해 퀘스트
+									내용 및 보상, 대화 내용을 확인할 수 있으며,
+									단축키(Space)를 누름으로써 대화를 이어나갈
+									수 있습니다.
+								</p>
+								<img
+									src="img/control8.png"
+									width="459px"
+									alt=""
+								/>
+								<h3>3. 전투 방법</h3>
+								<p>
+									전투가 시작되면, 몬스터에게 스킬 사용 가능한
+									사정거리 이내로 접근합니다. <br />
+									접근 후 단축키로 등록된 스킬을 사용하면
+									공격할 수 있습니다.
+								</p>
+								<img
+									src="img/control9.png"
+									width="459px"
+									alt=""
+								/>
+								<h3>4. 아이템 획득 방법</h3>
+								<p>
+									몬스터와의 전투가 종료되면 일정 경험치를
+									획득하게 되고, 주변에는 아이템이 드롭됩니다.
+									<br />
+									이 아이템들을 획득하기 위해서는 아이템
+									근처에서 단축키[Z]를 눌러 아이템을 획득 할
+									수 있습니다.
+								</p>
+								<img
+									src="img/control10.png"
+									width="459px"
+									alt=""
+								/>
+							</div>
+
+							<div class="guide_tab5 guide_content">
+								<h1>메이플 길라잡이</h1>
+								<p>
+									메이플스토리 마을을 모험하며 만나는 NPC를
+									선택하여 퀘스트를 수행하는 방법도 있지만,
+									메이플 길라잡이를 통해 추천받은 퀘스트를
+									간편하게 수행할 수도 있습니다. <br />
+									10레벨 이상이라면 단축키[기본 단축키 : U]를
+									누르거나 화면에 보이는 메이플 길라잡이 UI를
+									확인해보세요.
+								</p>
+								<img src="img/gila1.png" alt="" />
+								<h2>1. 퀘스트 추천받기</h2>
+								<p>
+									메이플 길라잡이를 통해 현재 캐릭터 레벨에
+									하기 적합한 일반 필드, 테마던전, 파티
+									퀘스트를 추천받을 수 있습니다. <br />
+									컨텐츠를 추천받는 경우 해당 지역 이미지와
+									이름이 버튼으로 보여집니다. <br />
+									버튼을 누르면 해당 지역 확인 후 원할 경우
+									퀘스트를 시작할 수 있고 이미 진행 중인
+									퀘스트라면 퀘스트 정보를 확인할 수 있습니다.
+								</p>
+								<img src="img/gila2.png" alt="" />
+
+								<h2>2. 컨텐츠 추천받기</h2>
+								<p>
+									메이플 길라잡이를 통해 현재 캐릭터 레벨에
+									이용하기 적합한 퀘스트를 추천 받을 수
+									있습니다. <br />
+									퀘스트를 추천받는 경우는 크게 전직퀘스트와
+									추천퀘스트 버튼으로 보여집니다. <br />
+									버튼을 누르면 해당 퀘스트를 시작할 수 있고
+									이미 진행 중인 퀘스트라면 퀘스트 정보를
+									확인할 수 있습니다.
+								</p>
+								<img src="img/gila3.png" width="459px" alt="" />
+								<p>
+									메이플 길라잡이로 이동을 할 경우에는
+									사용대기시간이 없어 바로 다시 이동할 수
+									있습니다. <br />
+									캐릭터 레벨에 따라 추천받는 퀘스트 및
+									사냥터/지역이 변경됩니다. <br />
+									각 버튼을 오른쪽 클릭하면 다음과 같은 정보를
+									확인할 수 있습니다. <br />
+									추천 퀘스트 버튼 : 퀘스트 정보<br />
+									컨텐츠 버튼 : 월드맵에서 해당 지역 위치
+									확인<br />
+								</p>
+
+								<h2>3. 컨텐츠맵 이용하기</h2>
+								<p>
+									컨텐츠맵에서는 메이플스토리의 컨텐츠에 대한
+									정보를 한 눈에 볼 수 있습니다. <br />
+									컨텐츠맵은 30레벨 이상부터 이용이 가능하며,
+									10레벨 단위로 용사님의 레벨에 따른 컨텐츠를
+									추천해드립니다. <br />
+									뿐만 아니라 각 컨텐츠에 대한 상세정보와 함께
+									빠른 맵 이동기능이 포함되어 있어 용사님의
+									수월한 모험에 도움을 드립니다. <br /><br />
+									메이플 길라잡이의 [+]버튼을 누르거나
+									단축키[U]를 두 번 눌러 컨텐츠맵을 이용 할 수
+									있습니다.
+								</p>
+								<img src="img/gila4.png" alt="" />
+								<p>
+									컨텐츠맵의 오른쪽에 있는 컨텐츠 목록을
+									누르면 컨텐츠에 대한 설명과 보상을 확인할 수
+									있습니다. <br />
+									또한 추천레벨의 조건에 속하는 레벨일 때
+									[이동하기]버튼을 통해 해당 맵으로 바로
+									이동할 수 있습니다. <br />
+									단, 이동하기 기능은 컨텐츠의 추천 레벨
+									+10레벨까지 이용하실 수 있습니다.
+								</p>
+								<img src="img/gila5.png" width="459px" alt="" />
+								<p>
+									각 컨텐츠를 플레이할 경우 완료 도장을 받을
+									수 있습니다. <br />
+									테마던전은 마지막 퀘스트를 완료했을 때, 일반
+									필드는 해당 필드의 몬스터를 일정 수 이상
+									사냥했을 때 도장을 받을 수 있습니다. 다양한
+									컨텐츠들을 클리어하고 완료 도장을
+									모아보세요.
+								</p>
+								<img src="img/gila6.PNG" width="459px" alt="" />
+								<h2>4. 컨텐츠맵 한눈에 보기</h2>
+								<img src="img/gila7.jpg" width="459px" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="event">
+				<div class="even center">
+					이벤트담!
+					<div class="bubble4"></div>
+					<div class="poison"></div>
+					<div class="mouse">클릭</div>
+				</div>
+
+				<div class="new_goods center">
+					신상이담
+					<div class="bubble5"></div>
+					<div class="stone_spirit"></div>
+					<div class="mouse">클릭</div>
+				</div>
+				<div class="modal4">
+					<div class="close1">닫기</div>
+					<div class="inner">
+						<div class="tab_name">이벤트</div>
+						<div class="tab2">
+							<ul class="event_tab">
+								<li class="active" rel="event_tab1">
+									사전예약 이벤트
+								</li>
+								<li rel="event_tab2">아르카나 코인샵</li>
+							</ul>
+						</div>
+						<div class="tab_content2">
+							<div class="event_tab1 event_content">
+								<img
+									src="img/event_reserve.jpg"
+									alt="아르카나 사전 예약 이벤트"
+								/>
+							</div>
+							<div class="event_tab2 event_content">
+								<img
+									src="img/event_coin.png"
+									alt="아르카나 코인샵"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal5">
+					<div class="close1">닫기</div>
+					<div class="inner">
+						<div class="tab_name">아이템/굿즈</div>
+						<div class="tab3">
+							<ul class="goods_tab">
+								<li class="active" rel="goods_tab1">
+									나왔담! 돌정령
+								</li>
+								<li rel="goods_tab2">아르카나 워터볼</li>
+								<li rel="goods_tab3">아케인리버 앨범 출시</li>
+								<li>
+									<a
+										href="https://necoje.nexon.com/main/index"
+										target="_blank"
+										>→ 굿즈 구매 페이지</a
+									>
+								</li>
+							</ul>
+						</div>
+						<div class="tab_content3">
+							<div class="goods_tab1 goods_content">
+								<img src="img/goods_spirit.jpg" alt="" />
+							</div>
+							<div class="goods_tab2 goods_content">
+								<img src="img/goods_water.png" alt="" />
+							</div>
+							<div class="goods_tab3 goods_content">
+								<img src="img/arcane_ost.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="gallery">
+				<div class="gall">
+					갤러리담!
+					<div class="bubble6"></div>
+					<div class="tana"></div>
+					<div class="mouse">클릭</div>
+				</div>
+
+				<div class="modal6">
+					<div class="close1">닫기</div>
+					<div class="inner">
+						<div class="tab_name">갤러리</div>
+						<div class="tab_hori2">
+							<ul class="gall_tab">
+								<li class="active" rel="gall_tab1">일러스트</li>
+								<li rel="gall_tab2">배경음악</li>
+							</ul>
+							<div class="tab_hori_content2">
+								<div class="gall_tab1 gall_content">
+									<div class="prev_indicator"></div>
+									<div class="ilust_carousel">
+										<ul class="ilust_img">
+											<li>
+												<img
+													src="img/ilust1.png"
+													width="300px"
+													alt="시무룩한 정령"
+												/>
+											</li>
+											<li>
+												<img
+													src="img/ilust2.png"
+													alt=""
+													width="300px"
+												/>
+											</li>
+											<li>
+												<img
+													src="img/ilust3.png"
+													alt=""
+													width="300px"
+												/>
+											</li>
+											<li>
+												<img
+													src="img/ilust4.png"
+													alt=""
+													width="300px"
+												/>
+											</li>
+											<li>
+												<img
+													src="img/ilust5.png"
+													alt=""
+													width="300px"
+												/>
+											</li>
+											<li>
+												<img
+													src="img/ilust6.png"
+													alt=""
+													width="300px"
+												/>
+											</li>
+											<li>
+												<img
+													src="img/ilust7.png"
+													alt=""
+													width="300px"
+												/>
+											</li>
+										</ul>
+									</div>
+									<div class="next_indicator"></div>
+
+									<ol class="indicator_ilust">
+										<li class="active"></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ol>
+
+									<div class="new_modal">
+										<div class="close2"></div>
+										<img src="img/ilust1.png" alt="" />
+									</div>
+								</div>
+								<div class="gall_tab2 gall_content">
+									<div class="gall_music">
+										<table>
+											<tr>
+												<th>01.</th>
+												<td>
+													소멸의 여로 - 망각의 호수
+												</td>
+												<td>
+													<audio class="mp3" controls>
+														<source
+															src="mp3/01_The%20Lake%20of%20Oblivion.mp3"
+															t
+														/>
+													</audio>
+												</td>
+											</tr>
+											<tr>
+												<th>02.</th>
+												<td>탐험! 츄츄 아일랜드</td>
+												<td>
+													<audio
+														class="mp3"
+														src="mp3/02_Expedition%20to%20ChewChew%20Island.mp3"
+														controls
+													></audio>
+												</td>
+											</tr>
+											<tr>
+												<th>03.</th>
+												<td>꿈의 도시 레헬른</td>
+												<td>
+													<audio
+														class="mp3"
+														src="mp3/03_Lacheln,%20The%20City%20of%20Dreams.mp3"
+														controls
+													></audio>
+												</td>
+											</tr>
+
+											<tr>
+												<th>04.</th>
+												<td>
+													아르카나 - The Shadow of
+													inconguity
+												</td>
+												<td>
+													<audio
+														class="mp3"
+														src="mp3/05_The%20Shadow%20of%20Inconguity.mp3"
+														controls
+													></audio>
+												</td>
+											</tr>
+											<tr>
+												<th>05.</th>
+												<td>
+													아르카나 - The Tune of The
+													Azure Light
+												</td>
+												<td>
+													<audio
+														class="mp3"
+														src="mp3/06_The%20Tune%20of%20The%20Azure%20Light%20(Gleam%20Ver.).mp3"
+														controls
+													></audio>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="modal_back"></div>
+		</div>
+
+		<script>
+			//문서 크기 조절
+			$(document).ready(function () {
+				var wd = $(window).width();
+				var ht = $(window).height();
+				$("#wrapper").height(ht);
+
+				$(window).resize(function () {
+					var ht = $(window).height();
+					var wd = $(window).width();
+					$("#wrapper").height(ht);
+				});
+
+				//공지사항 modal
+				$(".notice").click(function () {
+					$(".modal1").fadeIn(500);
+					$(".modal_back").css("display", "block");
+					$(".gnb").css("z-index", "0");
+				});
+
+				$(".coming").click(function () {
+					$(".coming_modal").fadeIn(500);
+					$(".modal_back").css("display", "block");
+					$(".gnb").css("z-index", "0");
+					$(".coming_con").scrollTop(0);
+				});
+
+				//각 모달용 배열 선언
+				var modals = [
+					".modal2",
+					".modal3",
+					".modal4",
+					".modal5",
+					".modal6",
+				];
+
+				var contents = [
+					".intro_content",
+					".guide_content",
+					".event_content",
+					".goods_content",
+					".gall_content",
+				];
+				var tabs = [
+					"ul.intro_tab li",
+					"ul.guide_tab li",
+					"ul.event_tab li",
+					"ul.goods_tab li",
+					"ul.gall_tab li",
+				];
+				var tab_contents = [
+					".tab_content",
+					".tab_content2",
+					".tab_content3",
+				];
+				//캐로셀 변수선언
+
+				var intro_carousel = $(".intro_content1 li");
+				var intro_current = 0;
+
+				var intro_carousel2 = $(".intro_content2 li");
+				var intro_current2 = 0;
+
+				var intro_carousel3 = $(".intro_content3 li");
+				var intro_current3 = 0;
+
+				var carousel_img = $(".ilust_img li img");
+				var carousel_btn = $(".indicator_ilust li");
+				var current = 0;
+
+				function modal(modal, content, tab) {
+					var j = i;
+					$(click1[i]).click(function () {
+						$(".modal_back").css("display", "block");
+						$(".gnb").css("z-index", "0");
+						$(modal).fadeIn(500);
+
+						$(content).hide();
+						$(content + ":first").show();
+						$(tab).removeClass("active");
+						$(tab + ":first").addClass("active");
+
+						if (j > 0 && j < 4) {
+							var k = j - 1;
+							$(tab_contents[k]).scrollTop(0);
+						} else if (j == 0) {
+							$(".intro_tab1 .prev_indicator").css(
+								"display",
+								"none"
+							);
+							$(".intro_tab1 .next_indicator").css(
+								"display",
+								"block"
+							);
+							intro_carousel.css("left", "100%");
+							intro_carousel.eq(0).css("left", 0);
+							intro_current = 0;
+						} else if (j == 4) {
+							$(".gall_tab1 .prev_indicator").css(
+								"display",
+								"none"
+							);
+							$(".gall_tab1 .next_indicator").css(
+								"display",
+								"block"
+							);
+							carousel_img.css("left", "100%");
+							carousel_img.eq(0).css("left", "0");
+							carousel_btn.removeClass("active");
+							carousel_btn.eq(0).addClass("active");
+							current = 0;
+						}
+					});
+				}
+
+				function close(modal) {
+					$(modal).fadeOut(500, 0);
+					$(".modal_back").css("display", "none");
+					$(".gnb").css("z-index", "9999");
+				}
+
+				var click1 = new Array(
+					".game_intro",
+					".guide",
+					".even",
+					".new_goods",
+					".gall"
+				);
+				var click2 = ".close1, .modal_back";
+
+				var _loop = function _loop(i) {
+					modal(modals[i], contents[i], tabs[i]);
+				};
+
+				for (var i = 0; i < click1.length; i++) {
+					_loop(i);
+				}
+
+				//공지사항 모달 닫기 - 따로 구현
+				$(click2).click(function () {
+					close(".modal1");
+				});
+
+				$(".close3, .modal_back").click(function () {
+					close(".coming_modal");
+				});
+
+				var _loop2 = function _loop2(i) {
+					$(click2).click(function () {
+						close(modals[i]);
+					});
+				};
+
+				for (var i = 0; i < click1.length; i++) {
+					_loop2(i);
+				}
+
+				function tab(tab_li, content) {
+					var j = i;
+					$(tabs[i]).click(function () {
+						if ($(this).hasClass("active") == true) {
+							return 0;
+						}
+
+						$(tab_li).removeClass("active");
+						$(this).addClass("active");
+						$(content).hide();
+
+						var active_tab = $(this).attr("rel");
+						$("." + active_tab).fadeIn();
+
+						if (j > 0 && j < 4) {
+							var k = j - 1;
+							$(tab_contents[k]).scrollTop(0);
+						} else if (j == 0 && $(this).index() == 0) {
+							$(".intro_tab1 .prev_indicator").css(
+								"display",
+								"none"
+							);
+							$(".intro_tab1 .next_indicator").css(
+								"display",
+								"block"
+							);
+							intro_carousel.css("left", "100%");
+							intro_carousel.eq(0).css("left", 0);
+							intro_current = 0;
+						} else if (j == 0 && $(this).index() == 1) {
+							$(".intro_tab2 .prev_indicator").css(
+								"display",
+								"none"
+							);
+							$(".intro_tab2 .next_indicator").css(
+								"display",
+								"block"
+							);
+							intro_carousel2.css("left", "100%");
+							intro_carousel2.eq(0).css("left", 0);
+							intro_current2 = 0;
+						} else if (j == 0 && $(this).index() == 2) {
+							$(".intro_tab3 .prev_indicator").css(
+								"display",
+								"none"
+							);
+							$(".intro_tab3 .next_indicator").css(
+								"display",
+								"block"
+							);
+							intro_carousel3.css("left", "100%");
+							intro_carousel3.eq(0).css("left", 0);
+							intro_current3 = 0;
+						} else if (j == 4 && $(this).index() == 0) {
+							$(".gall_tab1 .prev_indicator").css(
+								"display",
+								"none"
+							);
+							$(".gall_tab1 .next_indicator").css(
+								"display",
+								"block"
+							);
+							carousel_img.css("left", "100%");
+							carousel_img.eq(0).css("left", "0");
+							carousel_btn.removeClass("active");
+							carousel_btn.eq(0).addClass("active");
+							current = 0;
+						}
+					});
+				}
+
+				var _loop3 = function _loop3(i) {
+					tab(tabs[i], contents[i]);
+				};
+
+				for (var i = 0; i < click1.length; i++) {
+					_loop3(i);
+				}
+
+				//carousel - 갤러리담->이미지
+				carousel_btn.click(function () {
+					var i = $(this).index();
+					if (current == i) {
+						return 0;
+					}
+					carousel_btn.removeClass("active");
+					$(this).addClass("active");
+
+					function move(i) {
+						var currentImg = carousel_img.eq(current);
+						var nextImg = carousel_img.eq(i);
+
+						currentImg
+							.css({
+								left: "0",
+							})
+							.animate({
+								left: "-100%",
+							});
+						nextImg
+							.css({
+								left: "100%",
+							})
+							.animate({
+								left: 0,
+							});
+						current = i;
+
+						if (current == 0) {
+							$(".gall_tab1 .prev_indicator").css(
+								"display",
+								"none"
+							);
+						} else {
+							$(".gall_tab1 .prev_indicator").css(
+								"display",
+								"block"
+							);
+						}
+
+						if (current == 6) {
+							$(".gall_tab1 .next_indicator").css(
+								"display",
+								"none"
+							);
+						} else {
+							$(".gall_tab1 .next_indicator").css(
+								"display",
+								"block"
+							);
+						}
+					}
+					move(i);
+				});
+
+				$(".gall_tab1 .prev_indicator").click(function () {
+					if (current == 1) {
+						$(this).css("display", "block");
+					}
+					if (current == 6) {
+						$(".gall_tab1 .next_indicator").css("display", "block");
+					}
+					var currentImg = carousel_img.eq(current);
+					var nextImg = carousel_img.eq((current -= 1));
+					currentImg
+						.css({
+							left: 0,
+						})
+						.stop()
+						.animate(
+							{
+								left: "100%",
+							},
+							200
+						);
+					nextImg
+						.css({
+							left: "-100%",
+						})
+						.stop()
+						.animate(
+							{
+								left: 0,
+							},
+							200
+						);
+					if (current == 0) {
+						$(this).css("display", "none");
+					}
+					carousel_btn.removeClass("active");
+					carousel_btn.eq(current).addClass("active");
+				});
+
+				$(".gall_tab1 .next_indicator").click(function () {
+					if (current == 0) {
+						$(".gall_tab1 .prev_indicator").css("display", "block");
+					}
+					var currentImg = carousel_img.eq(current);
+					var nextImg = carousel_img.eq((current += 1));
+					currentImg
+						.css({
+							left: 0,
+						})
+						.stop()
+						.animate(
+							{
+								left: "-100%",
+							},
+							200
+						);
+					nextImg
+						.css({
+							left: "100%",
+						})
+						.stop()
+						.animate(
+							{
+								left: 0,
+							},
+							200
+						);
+					if (current == 6) {
+						$(this).css("display", "none");
+					}
+					carousel_btn.removeClass("active");
+					carousel_btn.eq(current).addClass("active");
+				});
+
+				$(".ilust_img>li img").click(function () {
+					var img_num = current + 1;
+					$(".new_modal").css("display", "block");
+					$(".new_modal>img").attr(
+						"src",
+						"img/ilust" + img_num + ".png"
+					);
+				});
+
+				$(".new_modal, .close2").click(function () {
+					$(".new_modal").css("display", "none");
+				});
+
+				//게임소개 > 메이플스토리는?
+				$(".intro_tab1 .prev_indicator").click(function () {
+					if (intro_current == 1) {
+						$(this).css("display", "block");
+					}
+					if (intro_current == 2) {
+						$(".intro_tab1 .next_indicator").css(
+							"display",
+							"block"
+						);
+					}
+					var currentImg = intro_carousel.eq(intro_current);
+					var nextImg = intro_carousel.eq((intro_current -= 1));
+					currentImg
+						.css({
+							left: 0,
+						})
+						.stop()
+						.animate(
+							{
+								left: "100%",
+							},
+							200
+						);
+					nextImg
+						.css({
+							left: "-100%",
+						})
+						.stop()
+						.animate(
+							{
+								left: 0,
+							},
+							200
+						);
+					if (intro_current == 0) {
+						$(this).css("display", "none");
+					}
+				});
+
+				$(".intro_tab1 .next_indicator").click(function () {
+					if (intro_current == 0) {
+						$(".intro_tab1 .prev_indicator").css(
+							"display",
+							"block"
+						);
+					}
+					var currentImg = intro_carousel.eq(intro_current);
+					var nextImg = intro_carousel.eq((intro_current += 1));
+					currentImg
+						.css({
+							left: 0,
+						})
+						.stop()
+						.animate(
+							{
+								left: "-100%",
+							},
+							200
+						);
+					nextImg
+						.css({
+							left: "100%",
+						})
+						.stop()
+						.animate(
+							{
+								left: 0,
+							},
+							200
+						);
+					if (intro_current == 2) {
+						$(this).css("display", "none");
+					}
+				});
+
+				//게임소개 > 메이플 월드
+				$(".intro_tab2 .prev_indicator").click(function () {
+					if (intro_current2 == 1) {
+						$(this).css("display", "block");
+						$(".intro_tab2 .next_indicator").css(
+							"display",
+							"block"
+						);
+					}
+					var currentImg = intro_carousel2.eq(intro_current2);
+					var nextImg = intro_carousel2.eq((intro_current2 -= 1));
+					currentImg
+						.css({
+							left: 0,
+						})
+						.stop()
+						.animate(
+							{
+								left: "100%",
+							},
+							200
+						);
+					nextImg
+						.css({
+							left: "-100%",
+						})
+						.stop()
+						.animate(
+							{
+								left: 0,
+							},
+							200
+						);
+					if (intro_current2 == 0) {
+						$(this).css("display", "none");
+					}
+				});
+
+				$(".intro_tab2 .next_indicator").click(function () {
+					if (intro_current2 == 0) {
+						$(".intro_tab2 .prev_indicator").css(
+							"display",
+							"block"
+						);
+					}
+					var currentImg = intro_carousel2.eq(intro_current2);
+					var nextImg = intro_carousel2.eq((intro_current2 += 1));
+					currentImg
+						.css({
+							left: 0,
+						})
+						.stop()
+						.animate(
+							{
+								left: "-100%",
+							},
+							200
+						);
+					nextImg
+						.css({
+							left: "100%",
+						})
+						.stop()
+						.animate(
+							{
+								left: 0,
+							},
+							200
+						);
+					if (intro_current2 == 1) {
+						$(this).css("display", "none");
+					}
+				});
+
+				//게임 소개 > 아르카나 업데이트
+				$(".intro_tab3 .prev_indicator").click(function () {
+					if (intro_current3 == 1) {
+						$(this).css("display", "block");
+						$(".intro_tab3 .next_indicator").css(
+							"display",
+							"block"
+						);
+					}
+					var currentImg = intro_carousel3.eq(intro_current3);
+					var nextImg = intro_carousel3.eq((intro_current3 -= 1));
+					currentImg
+						.css({
+							left: 0,
+						})
+						.stop()
+						.animate(
+							{
+								left: "100%",
+							},
+							200
+						);
+					nextImg
+						.css({
+							left: "-100%",
+						})
+						.stop()
+						.animate(
+							{
+								left: 0,
+							},
+							200
+						);
+					if (intro_current3 == 0) {
+						$(this).css("display", "none");
+					}
+				});
+
+				$(".intro_tab3 .next_indicator").click(function () {
+					if (intro_current3 == 0) {
+						$(".intro_tab3 .prev_indicator").css(
+							"display",
+							"block"
+						);
+					}
+					var currentImg = intro_carousel3.eq(intro_current3);
+					var nextImg = intro_carousel3.eq((intro_current3 += 1));
+					currentImg
+						.css({
+							left: 0,
+						})
+						.stop()
+						.animate(
+							{
+								left: "-100%",
+							},
+							200
+						);
+					nextImg
+						.css({
+							left: "100%",
+						})
+						.stop()
+						.animate(
+							{
+								left: 0,
+							},
+							200
+						);
+					if (intro_current3 == 1) {
+						$(this).css("display", "none");
+					}
+				});
+
+				//가로 스크롤 구현
+				$("#wrapper").on("mousewheel", function (e, delta) {
+					if (
+						$(".modal3").css("display") == "block" ||
+						$(".modal4").css("display") == "block" ||
+						$(".modal5").css("display") == "block" ||
+						$(".coming_modal").css("display") == "block"
+					) {
+						return 0;
+					}
+
+					if (delta > 0) {
+						var left = $(window).scrollLeft();
+						var width = $(window).width();
+						var leftMore = left - width;
+						$("html, body").stop().animate(
+							{
+								scrollLeft: leftMore,
+							},
+							500,
+							"linear"
+						);
+					} else if (delta < 0) {
+						var left = $(window).scrollLeft();
+						var width = $(window).width();
+						var leftMore = left + width;
+						$("html, body").stop().animate(
+							{
+								scrollLeft: leftMore,
+							},
+							500,
+							"linear"
+						);
+					}
+				});
+
+				var menu = $(".gnb li");
+				var active_menu = $(".gnb li a");
+
+				menu.click(function (e) {
+					var tg = $(this);
+					var i = tg.index();
+					if (i == 4) {
+						return 0;
+					}
+					var nowLeft = i * wd;
+
+					active_menu.removeClass("active");
+					active_menu.eq(i).addClass("active");
+
+					e.preventDefault();
+					$("html, body").stop().animate(
+						{
+							scrollLeft: nowLeft,
+						},
+						500,
+						"linear"
+					);
+				});
+
+				$(window).on("scroll", function () {
+					var scroll = $(window).scrollLeft();
+					if (scroll >= 0 && scroll < wd) {
+						active_menu.removeClass("active");
+						active_menu.eq(0).addClass("active");
+					} else if (scroll >= 0 && scroll < wd * 2) {
+						active_menu.removeClass("active");
+						active_menu.eq(1).addClass("active");
+					} else if (scroll >= 0 && scroll < wd * 3) {
+						active_menu.removeClass("active");
+						active_menu.eq(2).addClass("active");
+					} else {
+						active_menu.removeClass("active");
+						active_menu.eq(3).addClass("active");
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
